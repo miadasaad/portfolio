@@ -1,0 +1,149 @@
+body{
+  height: 3000px;
+
+}
+.container-fluid{
+  padding: 19px 33px !important; 
+}
+nav{
+  z-index: 9;
+}
+.nav-link{
+  font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.nav-link , .navbar-brand{
+  color: white !important;
+  transition: all .3s ease-in-out;
+}
+nav a.active , .nav-link:hover{
+  color: #FF4D5A !important;
+}
+.navbar-brand{
+  font-size: 18px;
+  font-weight: 500;
+}
+.side-navbar{
+  position: fixed;
+  margin-top: 804px;
+}
+.side-navbar .line-nav{
+  height: 3px;
+  width: 25px;
+  background: #fff;
+  margin-bottom: 26px;
+  z-index: 99;
+  cursor: pointer;
+  transition: all .4s ease-in-out;
+}
+.side-navbar .line-nav.active{
+  width: 50px;
+}
+/* jgrfwuithuiwguitrhjk */
+section {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    color:white;
+    background-color: black;
+  }
+
+
+  section{
+    background-image: url(imgs/cloud-background.PNG);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+  }
+.bio{
+  position: absolute;
+  left: 11%;
+  top: 23%;
+}
+.bio h1{
+  font-size: 85px;
+  font-weight: bold;
+  letter-spacing: 8px;
+}
+
+.bio .first , .bio .second{
+  height: 5px;
+  width: 100px;
+  background:#FF4D5A;
+  border-radius: 4px;
+}
+.bio p{
+  color: #fff;
+  font-size: 2.8rem;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+.images{
+  position: absolute;
+    right: 16%;
+    top: 24%;
+    width: 600px;
+}
+.my-moon{
+  position:relative;
+}
+img{
+  position:absolute;
+}
+img.cloud3{
+  margin-top: 14% !important;
+  margin-left: 59% !important;
+}
+.cloud1{
+  margin-top: 65%;
+  margin-left: -30%;
+}
+.cloud2{
+  margin-top: 68%;
+  margin-left: 327px;
+}
+.my-moon h1{
+  margin-top: 200px;
+  position: absolute;
+  z-index: 9;
+  color: #FF4D5A;
+  font-weight: bold;
+  font-size: 63px;
+  margin-left: -84px;
+  letter-spacing: 5px;
+}
+/* contact */
+.contact{
+  top: 34%;
+}
+.bio{
+  z-index: 99;
+}
+.contact h1{
+  font-size: 98px;
+  letter-spacing: 14px;
+}
+.mail{
+  font-size: 20px !important;
+  letter-spacing: 2px !important;
+}
+.img-cover{
+    right: 56%;
+    top: 11%;
+}
+.img-cover img{
+margin-top:30%;
+}
+#about button{
+  color: white;
+    background: #FF4D5A;
+    font-weight: 700;
+    padding: 10px 20px;
+    border-radius: 25px;
+    transition: all .5s ease-in-out;
+}
+#about button:hover{
+  color: #FF4D5A;
+  background: #fff;
+}
